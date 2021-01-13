@@ -198,7 +198,6 @@ class ItemCreator {
         item.data.malfunction = weaponData.malf
       }
       const damageList = weaponData.damage.split("+")
-      console.log(damageList)
       switch (damageList[damageList.length - 1]) {
         case "DB":
         case "db":
@@ -273,7 +272,6 @@ class ItemCreator {
 
       const attackMatch = splitAttacks[0].match(/([0-9]+(\/[0-9]+)?)( \(([0-9]+)\))/)
       if (attackMatch) {
-        console.log(attackMatch)
         item.data.usesPerRound.normal = attackMatch[0]
         if (attackMatch[4]) item.data.usesPerRound.max = attackMatch[4]
       }
