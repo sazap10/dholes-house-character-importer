@@ -272,7 +272,7 @@ class ItemCreator {
 
       const attackMatch = splitAttacks[0].match(/([0-9]+(\/[0-9]+)?)( \(([0-9]+)\))/)
       if (attackMatch) {
-        item.data.usesPerRound.normal = attackMatch[0]
+        item.data.usesPerRound.normal = attackMatch[1]
         if (attackMatch[4]) item.data.usesPerRound.max = attackMatch[4]
       }
 
