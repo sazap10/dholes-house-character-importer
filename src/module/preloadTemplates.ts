@@ -1,6 +1,6 @@
 export const preloadTemplates = async function() {
 	const templatePaths = [
-		"modules/dhole-importer/templates/importer.html"
+		"modules/dholes-house-character-importer/templates/importer.html"
 	];
 
 	return loadTemplates(templatePaths);

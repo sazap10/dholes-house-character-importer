@@ -7,7 +7,7 @@ import ImportWindow from "./module/importWindow.js";
 /* Initialize module					*/
 /* ------------------------------------ */
 Hooks.once('init', async function() {
-	console.log('dhole-importer | Initializing dhole-importer');
+	console.log('dholes-house-character-importer | Initializing dholes-house-character-importer');
 
 	// Assign custom classes and constants here
 	

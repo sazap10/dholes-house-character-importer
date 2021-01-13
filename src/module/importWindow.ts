@@ -6,7 +6,7 @@ export default class ImportWindow extends Application {
         return {
             ...super.defaultOptions,
             id: "md-importer",
-            template: "modules/dhole-importer/templates/importer.html",
+            template: "modules/dholes-house-character-importer/templates/importer.html",
             resizable: true,
             height: "auto",
             width: 400,
