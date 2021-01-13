@@ -6,9 +6,8 @@
   "version": "1.0.0",
   "author": "sazap10",
   "esmodules": [
-    "dhole-importer.js"
+    "dholes-house-character-importer.js"
   ],
-  "styles": ["dhole-importer.css"],
   "minimumCoreVersion": "0.7.9",
   "compatibleCoreVersion": "0.7.9",
   "url": "https://github.com/sazap10/dholes-house-character-importer",
