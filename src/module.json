@@ -14,8 +14,8 @@
   "url": "https://github.com/sazap10/dholes-house-character-importer",
   "manifest": "https://github.com/sazap10/dholes-house-character-importer/releases/download/v1.0.0/module.json",
   "download": "https://github.com/sazap10/dholes-house-character-importer/releases/download/v1.0.0/dholes-house-character-importer-v1.0.0.zip",
-  "license": "",
-  "readme": "",
-  "bugs": "",
-  "changelog": ""
+  "license": "https://github.com/sazap10/dholes-house-character-importer/blob/master/LICENSE",
+  "readme": "https://github.com/sazap10/dholes-house-character-importer/blob/master/README.md",
+  "bugs": "https://github.com/sazap10/dholes-house-character-importer/issues",
+  "changelog": "https://github.com/sazap10/dholes-house-character-importer/blob/master/CHANGELOG.md"
 }
