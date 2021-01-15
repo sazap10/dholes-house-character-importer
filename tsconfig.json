@@ -6,6 +6,11 @@
 			"ES6",
 			"ES2017"
 		],
-		"types": ["foundry-pc-types"]
+		"types": ["foundry-pc-types", "@types/jest"],
+		"baseUrl": "./",
+    "paths": {
+      "src/*": ["src/*"],
+      "tests/*": ["tests/*"]
+    }
 	}
 }
